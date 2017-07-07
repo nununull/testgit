@@ -57,30 +57,61 @@ git push --delete origin wip-wish-product 删除线上分支
 
 二、项目中使用
 1、新建分支、开发、分支提交 
+
+
+```shell
 git branch branchName
+
 git checkout branchName
+```
+
+
 开发
 测试
+
+
+```shell
 git commit 
+
 git pull
+
 git push
+```
 
 2、切换主干，更新主干数据
+
+
+```shell
 git checkout master
+
 git pull
+```
 
 3、切换分支，把主干代码合并到分支
+
+
+```shell
 git checkout branchName
+
 git pull
+
 git rebase master
+```
+
+
 可能有冲突,有冲突，先解决
+
+
+```shell
 git pull
+
 git push
+```
 
 4、切换主干，主干合并分支的代码，上线
 
 
-```git
+```shell
 git checkout master
 
 git rebase branchName
@@ -88,5 +119,4 @@ git rebase branchName
 git pull
 
 git push
-
 ```
