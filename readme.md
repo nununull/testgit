@@ -38,8 +38,6 @@ git branch wip-order-taobao
 git branch -d		删除本地分支	
 git push --delete origin wip-order-taobao删除线上分支
 
-
-
 5、git add .		新增文件，加入版本控制
 
 6、git commit		提交代码
@@ -47,12 +45,15 @@ git push --delete origin wip-order-taobao删除线上分支
 7、git pull		同步服务器数据
 
 8、git push		提交本地数据到服务器
-​		
+
 9、git rebase/merge	合并代码
 
 10、git checkout	切换分支
 
--------------------------------------------------------------------
+```shell
+git checkout master
+git checkout wip-order-taobao
+```
 
 二、项目中使用
 1、新建分支、开发、分支提交 
