@@ -9,14 +9,13 @@
 ```git
 git init
 
-git remote add origin ssh://git@git.dev.dianxiaomi.com:36022/third-party/sfbsp-ws-sdk.git
+git remote add origin git@github.com:nununull/testgit.git
 
 git add .
 
 git commit
 
 git push -u origin master
-
 ```
 
 
@@ -24,20 +23,20 @@ git push -u origin master
 
 
 ```
-git clone ssh://git@git.dev.dianxiaomi.com:36022/third-party/sfbsp-ws-sdk.git
+git clone git@github.com:nununull/testgit.git
 ```
 
 4、	新建分支、fix--
 
 ```
-git branch wip-product-wish
+git branch wip-order-taobao
 ```
 
 
 删除分支
 方法一：
 git branch -d		删除本地分支	
-git push --delete origin wip-wish-product 删除线上分支
+git push --delete origin wip-order-taobao删除线上分支
 
 
 
